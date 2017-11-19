@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaZJack!</title>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <script type="text/javascript" src="step1js/step1.js"></script>
+    <div class="center-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3">
+                    <h1>JavaZJack!</h1>
+                    <fieldset>
+                        <form id="javazjack" onsubmit="javazjack(); return false" class="form-inline">
+                            <label for="player">Enter your lucky number!</label>
+                            <input id="number_player" type="number" name="player" class="form-control" placeholder="Your lucky number" min="1" max="10">
+                            <br>
+                            <input type="submit" name="number_result" value="Play with it!" class="btn btn-default">
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
